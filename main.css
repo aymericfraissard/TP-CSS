@@ -8,12 +8,12 @@ h1{
     padding: 0px;
 }
 
-.projet  {
+.bandeau  {
     width:95.4%;
     height:100%;
     background-color: lightblue;
     margin: 0px;
-    padding: 45px;
+    padding: 45px 44px;
 }
 
 .pied {
@@ -21,7 +21,7 @@ h1{
     height:100%;
     background-color:crimson;
     margin: 0px;
-    padding: 66px;
+    padding: 66px 65px;
 }
 
 .main {
@@ -52,13 +52,27 @@ h1{
     padding: 100px 0px;
 }
 
-.contenue {
-    width:68%;
-    height:0%;
-    background-color: yellow;
-    margin: 0px;
-    padding: 300px 800px;
-
+.central {
+    
+    background-color: yellow; 
+    padding: 285.5px 855px; 
 }
 
-.
+.p {
+    
+    float:left;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin: 100px;
+    padding: 10px 10px; 
+}
+
+.news {
+	width: 250px;
+    height: 250px;
+    background-color: #ff0000;
+    top: 127px;
+    right: 0px;
+    position: absolute;
+	}
